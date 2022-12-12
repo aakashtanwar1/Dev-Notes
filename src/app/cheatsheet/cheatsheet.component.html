@@ -1,0 +1,100 @@
+<div class="bg-container">
+    <app-header></app-header>
+    <!-- Collapsible view -->
+    <div class="main-container container">
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              HTML
+            </mat-panel-title>
+            <mat-panel-description>
+              Html Boilerplate
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <!-- html -->
+          <p><app-html></app-html></p>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              CSS
+            </mat-panel-title>
+            <mat-panel-description>
+              Css Boilerplate
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <!-- css -->
+          <p><app-css></app-css></p>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Js
+            </mat-panel-title>
+            <mat-panel-description>
+              Javascript Boilerplate
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <!-- js -->
+          <p><app-javascript></app-javascript></p>
+        </mat-expansion-panel>
+        <!-- Git -->
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Git
+            </mat-panel-title>
+            <mat-panel-description>
+              Git Cheatsheet
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p><app-git></app-git></p>
+        </mat-expansion-panel>
+        <!-- Angular -->
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Angular
+            </mat-panel-title>
+            <mat-panel-description>
+              Angular Snippets
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p><app-angular></app-angular></p>
+        </mat-expansion-panel>
+        <!-- react -->
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>React
+            </mat-panel-title>
+            <mat-panel-description>
+              React Snippets
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p><app-react></app-react></p>
+        </mat-expansion-panel>
+        <!-- node.js -->
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Node.js
+            </mat-panel-title>
+            <mat-panel-description>
+              Node.js Snippets
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p><app-nodejs></app-nodejs></p>
+        </mat-expansion-panel>
+        <!-- express -->
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Express
+            </mat-panel-title>
+            <mat-panel-description>
+              Express Snippets
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p><app-express></app-express></p>
+        </mat-expansion-panel>
+  
+      </mat-accordion>
+    </div>
+    <app-footer></app-footer>
+  </div>
